@@ -15,7 +15,7 @@ Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwad
 
 ## Live Demo
 
-[Finance - metrics](https://react-redux-space-travelers-hub.netlify.app/)<br>
+[Finance - metrics](#)<br>
 
 ## Installation
 
