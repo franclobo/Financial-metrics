@@ -1,9 +1,14 @@
-import Home from './components/Home/Home';
+import { Route, Routes } from 'react-router-dom';
+import Details from './components/Details';
+import Homepage from './components/Homepage';
 
-function App() {
+export default function App() {
   return (
-    <Home />
+    <div>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/:id" element={<Details />} />
+      </Routes>
+    </div>
   );
 }
-
-export default App;
