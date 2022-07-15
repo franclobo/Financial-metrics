@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import Card from 'react-bootstrap/Card';
 import { FetchCryptos } from '../redux/cryptocurrency';
 
 const Crypto = (props) => {
@@ -63,26 +64,36 @@ export default function Homepage() {
           <option value="Least Change">Least Change</option>
         </select>
       </div>
-      <ul className="cryptos">
-        {filterCrypto.length > 0
-          && filterCrypto.map((crypto) => (
-            <Crypto
-              key={crypto.name}
-              name={crypto.name}
-              price={crypto.price}
-              change={crypto.change}
-            />
-          ))}
-        {filterCrypto.length === 0
-          && cryptos.map((crypto) => (
-            <Crypto
-              key={crypto.name}
-              name={crypto.name}
-              price={crypto.price}
-              change={crypto.change}
-            />
-          ))}
-      </ul>
+      <Card style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+          <Card.Text>
+            <ul className="cryptos">
+              {filterCrypto.length > 0
+                && filterCrypto.map((crypto) => (
+                  <Crypto
+                    key={crypto.name}
+                    name={crypto.name}
+                    price={crypto.price}
+                    change={crypto.change}
+                  />
+                ))}
+              {filterCrypto.length === 0
+                && cryptos.map((crypto) => (
+                  <Crypto
+                    key={crypto.name}
+                    name={crypto.name}
+                    price={crypto.price}
+                    change={crypto.change}
+                  />
+                ))}
+            </ul>
+          </Card.Text>
+          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+        </Card.Body>
+      </Card>
     </div>
   );
 }
