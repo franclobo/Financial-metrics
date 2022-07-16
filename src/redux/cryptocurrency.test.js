@@ -3,27 +3,22 @@ import reducer from './cryptocurrency';
 describe('Cryptocurrency reducer test', () => {
   it('should return the initial state', () => {
     expect(reducer(undefined, {})).toEqual([]);
-  }).toEqual([]);
-
-  it('should handle GET_CRYPTO', () => {
-    expect(reducer([], {
-      type: 'GET_CRYPTO',
+  });
+  it('should return the state with the new cryptos', () => {
+    const action = {
+      type: 'MOST_GAINER',
       payload: [{
         symbol: 'BTC',
         name: 'Bitcoin',
-        change: '+0.00',
-        price: '$9,890.00',
+        change: '+0.01',
+        price: '$12,000.00',
       }],
-    })).toEqual([{
+    };
+    expect(reducer([], action)).toEqual([{
       symbol: 'BTC',
       name: 'Bitcoin',
-      change: '+0.00',
-      price: '$9,890.00',
+      change: '+0.01',
+      price: '$12,000.00',
     }]);
-  }).toEqual([{
-    symbol: 'BTC',
-    name: 'Bitcoin',
-    change: '+0.00',
-    price: '$9,890.00',
-  }]);
+  });
 });
