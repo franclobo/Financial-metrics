@@ -6,7 +6,6 @@ body {
 }
 
 header {
-  font-style: gill sans, sans-serif;
   text-align: center;
 }
 
@@ -23,7 +22,7 @@ a {
 }
 
 h2 {
-  color: #ffff00;
+  color: #ff0;
 }
 
 .selector {
@@ -66,7 +65,7 @@ li {
   border-radius: 10px;
 }
 
-li > a{
+li > a {
   text-decoration: none;
   color: #fff;
 }

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Test Homepage Test 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="selector"
+  >
+    <select
+      id="filter"
+      name="filter"
+      onInput={[Function]}
+    >
+      <option
+        defaultValue="Most Price"
+      >
+        Most Price
+      </option>
+      <option
+        value="Most Change"
+      >
+        Most Change
+      </option>
+      <option
+        value="Least Price"
+      >
+        Least Price
+      </option>
+      <option
+        value="Least Change"
+      >
+        Least Change
+      </option>
+    </select>
+  </div>
+  <ul
+    className="cryptos"
+  />
+</div>
+`;
