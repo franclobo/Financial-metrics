@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: fuchsia;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+}
+
+header > h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h2 {
+  color: #ff0;
+}
+
+.selector {
+  text-align: center;
+}
+
+footer {
+  opacity: 0.8;
+  text-align: center;
+}
+
+.cryptos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 10px 20px;
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  width: 250px;
+  height: 250px;
+  padding: 10px 20px;
+  opacity: 0.8;
+  background-color: darkmagenta;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+li > a {
+  text-decoration: none;
+  color: #fff;
+}
