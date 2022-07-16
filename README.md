@@ -15,7 +15,7 @@ Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwad
 
 ## Live Demo
 
-[Finance - metrics](#)<br>
+[Finance - metrics](https://finance-metrics.netlify.app/)<br>
 
 ## Installation
 
