@@ -1,4 +1,4 @@
-const apiKey = 'a8461fd406b7531d18abc4169130431b';
+const apiKey = 'abb73ff870a2497f15c15f76b46a63e9';
 const urlGainers = `https://financialmodelingprep.com/api/v3/stock_market/gainers?apikey=${apiKey}`;
 const urlLosers = `https://financialmodelingprep.com/api/v3/stock_market/losers?apikey=${apiKey}`;
 const urlActive = `https://financialmodelingprep.com/api/v3/stock_market/actives?apikey=${apiKey}`;

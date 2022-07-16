@@ -22,8 +22,9 @@ export default function Details() {
             Price
           </Title>
           <p>
+            $
             {Crypto.price}
-            live price in US Dollar
+            &nbsp; live price in US Dollar
             (USD). View value statistics, market cap and supply.
           </p>
         </Col>
