@@ -20,6 +20,10 @@ Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwad
 <br/>
 https://user-images.githubusercontent.com/58642949/179337398-c215c07b-cfbb-4c30-a268-56ad782f9ead.mp4
 
+## Video Demo
+
+https://www.loom.com/share/68e2aeccddd848c0b8bee4dd18027ac8
+
 ## Installation
 
 Clone this repository (you must have [Git Installed](git@github.com:franclobo/Financial-metrics.git)
